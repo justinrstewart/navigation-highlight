@@ -10,7 +10,7 @@ body {
   width: 100%;
 }
 
- *::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -22,21 +22,15 @@ header {
 }
 
 h1 {
+  font-size: 3rem;
+  margin: 0;
   font-family: "Sigmar One";
   color: #b20953;
 }
 
-h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-
 h2 {
   font-family: "sigmar One";
-  color: #b20953
-}
-
-h2 {
+  color: #b20953;
   font-size: 1.875rem;
   margin: 0;
 }
@@ -51,7 +45,12 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-size: 1.125rem;
-  margin: 00.3rem;
+  margin: 0.3rem;
+}
+
+main {
+  margin: 0;
+  padding: 0 .75em;
 }
 
 .navigation a {
@@ -62,10 +61,24 @@ nav ul li {
   border-radius: 4px;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .navigation a:hover {
   background-color: #cc1465;
 }
 
 .navigation .current {
   background-color: #b20953;
+}
+
+footer {
+  color: #2f2d13;
+  background-color: #ffe500;
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
 }
