@@ -61,3 +61,11 @@ nav ul li {
   padding: .4em .5em;
   border-radius: 4px;
 }
+
+.navigation a:hover {
+  background-color: #cc1465;
+}
+
+.navigation .current {
+  background-color: #b20953;
+}
